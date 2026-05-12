@@ -9,7 +9,9 @@ def home():
 def work():
     return "hello"
 
-
+@app.route("/")
+def hello:
+return "what are you doing"
 
 
 
